@@ -14,7 +14,7 @@
 import React, {PureComponent} from 'react';
 import Emitter from 'tiny-emitter';
 import last from 'lodash/last';
-import renderChart from './column_chart';
+import renderChart from './stackedColumn_chart';
 
 
 const emitter = new Emitter();
