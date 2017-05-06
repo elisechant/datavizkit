@@ -4,7 +4,6 @@ import merge from 'lodash/merge';
 
 import Legend from './customLegend.js';
 import {createHighcontrastFillSeriesIteratee} from './../utils/highcontrastPatterns';
-import {valueFormats, dateFormats} from './../utils/displayFormats'
 import {createPolarCustomLegendData} from './../utils/chartOptionsHelpers';
 
 
@@ -124,6 +123,7 @@ const withDonutChart = (ComposedComponent) => {
           ...s,
           colorByPoint: true,
           innerSize: '50%',
+          size: '80%',
         }
       });
 
