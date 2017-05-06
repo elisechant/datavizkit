@@ -129,7 +129,6 @@ const withLineChart = (ComposedComponent) => {
           crosshairs: true,
         },
         xAxis: {
-          crosshair: true,
           // type: 'datetime', // todo - format x labels to datetime
           // Format 24 hour time to AM/PM
           // dateTimeLabelFormats: {

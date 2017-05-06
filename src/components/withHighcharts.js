@@ -73,7 +73,11 @@ const BASE_HIGHCHARTS_CONFIG = {
     dateTimeLabelFormats: {
       // day: '%e of %b',
       // month: '%b \'%y',
-    }
+    },
+    crosshair: {
+      width: 40,
+      color: 'rgba(204,214,235,0.25)'
+    },
   },
   legend: {
     enabled: false,
